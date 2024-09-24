@@ -84,6 +84,18 @@ body {
     font-size: 12px;
 }
 
+.card-tag a {
+    text-decoration: none;
+    color: var(--gray-950);
+}
+
+.card-tag a:hover,
+.card-tag a:focus,
+.card-tag a:active {
+    color: var(--white);
+    transition: color 0.2s ease-in-out;
+}
+
 .card-date p {
     font-size: 12px;
     line-height: 150%;
@@ -99,6 +111,18 @@ body {
     font-weight: 800;
     margin: 0;
     padding: 0;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: var(--gray-950);
+}
+
+.card-title a:hover,
+.card-title a:focus,
+.card-title a:active {
+    color: var(--yellow);
+    transition: color 0.2s ease-in-out;
 }
 
 .card-description {
